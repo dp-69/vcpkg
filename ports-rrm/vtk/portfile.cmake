@@ -2,7 +2,7 @@ if(VCPKG_CMAKE_SYSTEM_NAME AND NOT VCPKG_CMAKE_SYSTEM_NAME STREQUAL "WindowsStor
     message(WARNING "You will need to install Xorg dependencies to build vtk:\napt-get install libxt-dev\n")
 endif()
 
-include(vcpkg_common_functions)
+# include(vcpkg_common_functions)
 
 set(VTK_SHORT_VERSION "8.2")
 set(VTK_LONG_VERSION "${VTK_SHORT_VERSION}.0")

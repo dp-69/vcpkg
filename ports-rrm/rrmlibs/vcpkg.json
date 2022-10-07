@@ -1,0 +1,17 @@
+{
+  "name": "rrmlibs",
+  "version": "1.1.0",
+  "description": "a stub package that ensures all required libraries for rrm 1.1.0 are installed.",
+  "dependencies": [
+    {
+      "name": "vtk",
+      "features": ["qt"]
+    },
+    "qt5-charts",
+    "nlohmann-json",
+    "boost-graph",
+    "hypre",
+    "eigen3",
+    "glew"
+  ]
+}

@@ -1,0 +1,10 @@
+SET(VCPKG_POLICY_EMPTY_PACKAGE enabled)
+
+message(STATUS "")
+message(STATUS "Congratulations, libraries are successfully installed")
+message(STATUS "                             __       __        ___  ")
+message(STATUS " _ __   _ __   _ __ ___     /_ |     /_ |      / _ \\ ")
+message(STATUS "| '__| | '__| | '_ ` _ \\     | |      | |     | | | |")
+message(STATUS "| |    | |    | | | | | |    | |  _   | |  _  | |_| |")
+message(STATUS "|_|    |_|    |_| |_| |_|    |_| (_)  |_| (_)  \\___/ ")
+message(STATUS "")
