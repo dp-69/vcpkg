@@ -46,6 +46,7 @@ vcpkg_from_github(
     HEAD_REF master
     PATCHES
         fix-QPainterPath.patch
+        fix-FreeType.patch
     #     fix-find-lz4.patch
     #     fix_ogg_linkage.patch
     #     fix-pugixml-link.patch
@@ -121,7 +122,9 @@ vcpkg_configure_cmake(
         # We set all libraries to "system" and explicitly list the ones that should use embedded copies
         -DVTK_USE_SYSTEM_LIBRARIES=OFF
         # -DVTK_USE_SYSTEM_GL2PS=OFF
+        -DVTK_USE_SYSTEM_FREETYPE=ON
 
+        
         # Select modules / groups to install
         # -DVTK_Group_Imaging=ON
         # -DVTK_Group_Views=ON
