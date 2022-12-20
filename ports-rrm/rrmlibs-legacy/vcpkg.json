@@ -1,7 +1,7 @@
 {
-  "name": "rrmlibs",
+  "name": "rrmlibs-legacy",
   "version": "1.1.0",
-  "description": "a stub package that ensures all required libraries for rrm 1.1.0 are installed.",
+  "description": "a stub package for rrm 1.1.0 libraries.",
   "dependencies": [
     {
       "name": "vtk",

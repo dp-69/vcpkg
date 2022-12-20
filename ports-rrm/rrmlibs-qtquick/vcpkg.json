@@ -1,0 +1,22 @@
+{
+  "name": "rrmlibs-qtquick",
+  "version": "6.2.0",
+  "description": "a stub package for RRM QtQuick libraries.",
+  "dependencies": [
+    {
+      "name": "vtk",
+      "features": ["qt"]
+    },
+    "qt5-charts",
+    "qt5-quickcontrols",
+    "qt5-quickcontrols2",
+    "nlohmann-json",
+    "boost-graph",
+    "boost-heap",
+    "hypre",
+    "eigen3",
+    "openblas",
+    "glog",
+    "glew"
+  ]
+}
