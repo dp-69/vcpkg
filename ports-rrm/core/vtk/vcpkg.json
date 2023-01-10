@@ -4,11 +4,18 @@
   "description": "Software system for 3D computer graphics, image processing, and visualization",
   "homepage": "https://github.com/Kitware/VTK",
   "dependencies": [
-    "freetype",
-    "qt5-base",
-    {
-      "name": "qt5-x11extras",
-      "platform": "linux" 
-    }    
-  ]
+    "freetype"
+  ],
+  "features": {
+    "qt": {
+      "description": "Qt functionality for VTK",
+      "dependencies": [
+        "qt5-base",
+        {
+          "name": "qt5-x11extras",
+          "platform": "linux"
+        }
+      ]
+    }
+  }
 }

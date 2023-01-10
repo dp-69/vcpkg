@@ -3,7 +3,10 @@
   "version": "1.1.0",
   "description": "a stub package for rrm 1.1.0 libraries.",
   "dependencies": [
-    "vtk",
+    {
+      "name": "vtk",
+      "features": ["qt"]
+    },
     "qt5-charts",
     "nlohmann-json",
     "boost-graph",
