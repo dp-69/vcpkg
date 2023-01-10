@@ -3,10 +3,7 @@
   "version": "6.2.0",
   "description": "a stub package for RRM QtQuick libraries.",
   "dependencies": [
-    {
-      "name": "vtk",
-      "features": ["qt"]
-    },
+    "vtk",
     "qt5-charts",
     "qt5-quickcontrols",
     "qt5-quickcontrols2",
