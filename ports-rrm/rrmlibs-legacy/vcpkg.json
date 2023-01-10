@@ -8,6 +8,10 @@
       "features": ["qt"]
     },
     "qt5-charts",
+    {
+      "name": "qt5-x11extras",
+      "platform": "linux" 
+    },
     "nlohmann-json",
     "boost-graph",
     "hypre",
