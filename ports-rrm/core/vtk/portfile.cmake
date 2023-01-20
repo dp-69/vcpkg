@@ -123,6 +123,7 @@ vcpkg_configure_cmake(
         -DVTK_USE_SYSTEM_LIBRARIES=OFF
         # -DVTK_USE_SYSTEM_GL2PS=OFF
         -DVTK_USE_SYSTEM_FREETYPE=ON
+        -DVTK_USE_SYSTEM_GLEW=ON
 
         
         # Select modules / groups to install
