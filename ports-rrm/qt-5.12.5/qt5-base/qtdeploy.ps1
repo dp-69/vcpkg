@@ -25,6 +25,8 @@ function deployPluginsIfQt([string]$targetBinaryDir, [string]$QtPluginsDir, [str
         }
     }
 
+    deployPlugins "sqldrivers"                                # [DP] added
+
     # We detect Qt modules in use via the DLLs themselves. See qtModuleEntries in Qt to find the mapping.
     if ($targetBinaryName -match "Qt5Cored?.dll") {
         if (!(Test-Path "$targetBinaryDir\qt.conf")) {
@@ -55,7 +57,7 @@ function deployPluginsIfQt([string]$targetBinaryDir, [string]$QtPluginsDir, [str
             deployBinary "$targetBinaryDir" "$binDir" "libssl-*.dll"
         }
     } elseif ($targetBinaryName -match "Qt5Sqld?.dll") {
-        deployPlugins "sqldrivers"
+        # deployPlugins "sqldrivers"                                # [DP] removed
     } elseif ($targetBinaryName -match "Qt5Multimediad?.dll") {
         deployPlugins "audio"
         deployPlugins "mediaservice"
